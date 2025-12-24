@@ -1,6 +1,6 @@
 from langgraph.graph import StateGraph,START,END,add_messages
 from typing import TypedDict,Annotated
-from langchain_core.messages import BaseMessage
+from langchain_core.messages import BaseMessage,HumanMessage
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 from langgraph.checkpoint.memory import InMemorySaver
